@@ -28,6 +28,7 @@ public class BaseModel {
 	protected Long id;
 
 	public Long getId() {
+		id = id * 2; 
 		return id;
 	}
 
